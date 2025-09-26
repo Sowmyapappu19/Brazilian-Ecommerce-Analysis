@@ -1,0 +1,53 @@
+-- Load Customers --
+
+LOAD DATA INFILE 'C:\Users\pappu\OneDrive\Documents\Brazilian-Ecommerce-analysis\data\olist_customers_dataset.csv'
+INTO TABLE customers
+IGNORE 1 ROWS;
+
+-- Load Orders --
+
+LOAD DATA INFILE 'C:\Users\pappu\OneDrive\Documents\Brazilian-Ecommerce-analysis\data\olist_orders_dataset.csv'
+INTO TABLE orders
+IGNORE 1 ROWS;
+
+-- Load Order Items --
+
+LOAD DATA INFILE 'C:\Users\pappu\OneDrive\Documents\Brazilian-Ecommerce-analysis\data\olist_order_items_dataset.csv'
+INTO TABLE order_items
+IGNORE 1 ROWS;
+
+-- Load Products -- 
+
+LOAD DATA INFILE 'C:\Users\pappu\OneDrive\Documents\Brazilian-Ecommerce-analysis\data\olist_products_dataset.csv'
+INTO TABLE products
+IGNORE 1 ROWS;
+
+-- Load Sellers --
+
+LOAD DATA INFILE 'C:\Users\pappu\OneDrive\Documents\Brazilian-Ecommerce-analysis\data\olist_sellers_dataset.csv'
+INTO TABLE sellers
+IGNORE 1 ROWS;
+
+-- Load Order Payments -- 
+
+LOAD DATA INFILE 'C:\Users\pappu\OneDrive\Documents\Brazilian-Ecommerce-analysis\data\olist_order_payments_dataset.csv'
+INTO TABLE order_payments
+IGNORE 1 ROWS;
+
+-- Load Order Reviews --
+
+LOAD DATA INFILE 'C:\Users\pappu\OneDrive\Documents\Brazilian-Ecommerce-analysis\data\olist_order_reviews_dataset.csv'
+INTO TABLE order_reviews
+IGNORE 1 ROWS;
+
+-- Load Geolocation -- 
+
+LOAD DATA INFILE 'C:\Users\pappu\OneDrive\Documents\Brazilian-Ecommerce-analysis\data\olist_geolocation_dataset.csv'
+INTO TABLE geolocation
+IGNORE 1 ROWS;
+
+-- Load product category name translation --
+
+LOAD DATA INFILE 'C:\Users\pappu\OneDrive\Documents\Brazilian-Ecommerce-analysis\data\product_category_name_translation.csv'
+INTO TABLE product_category_name_translation
+IGNORE 1 ROWS;
