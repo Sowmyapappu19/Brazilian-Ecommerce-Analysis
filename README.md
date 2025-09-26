@@ -118,7 +118,7 @@ This Power BI dashboard project provides a comprehensive sales analysis for an e
   ![Payments and Reviews Overview](images/Payments_Reviews_Overview.png)
 
 3.Sales and Revenue Overview
-  ![Sales and Revenue Overview](images/Sales_Revenue.png)
+  ![Sales and Revenue Overview](images/Sales_Revenue_Overview.png)
 
 ## **How To Use**
   Clone the repository to your local machine.
